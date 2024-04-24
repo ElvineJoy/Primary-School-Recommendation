@@ -1,0 +1,24 @@
+{
+  "name": "primary-school-recommendation",
+  "version": "1.0.0",
+  "description": "The app assists residents of a particular area to get a list of schools recommeded to them based on a search criteria they choose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvineJoy/Primary-School-Recommendation.git"
+  },
+  "keywords": [
+    "primary",
+    "school",
+    "recommendation"
+  ],
+  "author": "Joy Wangui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElvineJoy/Primary-School-Recommendation/issues"
+  },
+  "homepage": "https://github.com/ElvineJoy/Primary-School-Recommendation#readme"
+}
