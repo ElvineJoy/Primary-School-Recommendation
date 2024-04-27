@@ -1,24 +1,75 @@
-.div {
-    background-color: #2c1d3b;
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+*::after {
+  margin: 50px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+body, button, input, textarea {
+  font-family: Aclonica, sans-serif;
+}
+
+header{
+  width:100%;
+  background-color: #2c1d3b;
+  overflow: hidden;
+  height: auto;
+}
+
+body{
     display: flex;
     flex-direction: column;
     font-size: 24px;
-    color: #fff;
+    background-color: #fff;
     font-weight: 400;
     padding: 68px 0 25px;
+    padding: 5px 5px;
+    font: Aclonica;
   }
-  .div-2 {
-    text-align: justify;
-    font-family: Aclonica, sans-serif;
-    align-self: end;
-    margin-right: 77px;
-  }
-  @media (max-width: 991px) {
-    .div-2 {
-      max-width: 100%;
-      margin-right: 10px;
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
     }
+
+nav {
+    width: 100%;
+   position: relative;
+    z-index: 50;
+    margin-bottom: 70px;
   }
+
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    float: right;
+    margin-top: 0px;
+  }
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 0;
+    }
+
+  a{
+    color: #cdc1c0;
+    text-decoration: none;
+    padding-left: 75px;
+    padding-right: 15px;
+    display: inline-block;
+    line-height: 1;
+    font: 22px Aclonica;
+  
+  }
+
+  .nav-bar a:hover{
+    background-color: #b295c9;
+  }
+  
   .div-3 {
     display: flex;
     margin-top: 138px;
@@ -27,74 +78,86 @@
     align-items: start;
     padding: 0 77px;
   }
-  @media (max-width: 991px) {
-    .div-3 {
-      max-width: 100%;
-      margin-top: 40px;
-      padding: 0 20px;
-    }
-  }
-  .div-4 {
+ 
+  .section-1 h1 {
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-left: 15px;
-    font: 64px Aclonica, sans-serif;
+    margin-top: 20px;
+    font: 43px Aclonica;
+    text-wrap: wrap;
+    color: #cdc1c0;
   }
-  @media (max-width: 991px) {
-    .div-4 {
-      max-width: 100%;
-      font-size: 40px;
-      white-space: initial;
-    }
-  }
-  .div-5 {
-    color: #f8fcff;
-    text-align: justify;
+
+  .paragraph {
+    color: #cdc1c0;
     font-family: Aclonica, sans-serif;
-    line-height: 30px;
+    margin-top: 0px;
+
+  }
+ 
+  p {
+    color: #cdc1c0;
+    text-align: left;
+    float: left;
+    line-height: 25px;
+    font-family: Aclonica;
     text-transform: capitalize;
-    margin: 31px 0 0 15px;
+    font-size: smaller;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-5 {
-      max-width: 100%;
-    }
-  }
-  .div-6 {
+  
+  button {
     font-family: Aclonica, sans-serif;
+    font-size: large;
     border-radius: 45px;
     background-color: #b295c9;
-    margin-top: 64px;
     text-align: center;
     justify-content: center;
-    padding: 34px 39px;
+    padding: 20px 35px;
+    display: inline-block;
+    margin: 40px;
+
   }
-  @media (max-width: 991px) {
-    .div-6 {
-      margin-top: 40px;
-      padding: 0 20px;
-    }
+
+  .btn {
+    display: inline-block;
+    position: absolute;
   }
-  .div-7 {
+button:hover {
+  background-color: beige;
+}
+
+.section-2 {
     border-radius: 73px;
     mix-blend-mode: soft-light;
-    background-color: #856577;
+    /* background-color: #856577; */
     align-self: stretch;
     display: flex;
     margin-top: 41px;
     align-items: center;
     font-size: 38px;
-    color: #532aa9;
     text-align: center;
     justify-content: center;
     padding: 40px 60px;
   }
-  @media (max-width: 991px) {
-    .div-7 {
-      max-width: 100%;
-      margin: 40px 8px 0 0;
-      padding: 0 20px;
-    }
+  
+  .container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #b295c9;
+    padding: 0 4px;
+    z-index: 5;
+    font-family: Aclonica;
+    
+  }
+
+  h3 {
+    color: #cdc1c0;
+    font-size: 43px;
+    position: relative;
+    
+
   }
   .div-8 {
     display: flex;
@@ -102,7 +165,7 @@
     max-width: 100%;
     flex-direction: column;
   }
-  .div-9 {
+  .form {
     align-self: end;
     display: flex;
     width: 641px;
@@ -117,11 +180,7 @@
     align-self: stretch;
     font: 40px Aclonica, sans-serif;
   }
-  @media (max-width: 991px) {
-    .div-10 {
-      max-width: 100%;
-    }
-  }
+  
   .div-11 {
     font-family: Bona Nova, sans-serif;
     border-radius: 60px;
@@ -133,12 +192,7 @@
     justify-content: center;
     padding: 22px 60px;
   }
-  @media (max-width: 991px) {
-    .div-11 {
-      margin-top: 40px;
-      padding: 0 20px;
-    }
-  }
+  
   .div-12 {
     font-family: Bona Nova, sans-serif;
     border-radius: 60px;
@@ -147,13 +201,7 @@
     justify-content: center;
     padding: 24px 60px;
   }
-  @media (max-width: 991px) {
-    .div-12 {
-      max-width: 100%;
-      margin-top: 40px;
-      padding: 0 23px 0 27px;
-    }
-  }
+  
   .div-13 {
     font-family: Bona Nova, sans-serif;
     border-radius: 60px;
@@ -165,12 +213,7 @@
     justify-content: center;
     padding: 30px 60px;
   }
-  @media (max-width: 991px) {
-    .div-13 {
-      margin-top: 40px;
-      padding: 0 20px;
-    }
-  }
+  
   .div-14 {
     display: flex;
     margin-top: 106px;
@@ -178,13 +221,7 @@
     gap: 20px;
     justify-content: space-between;
   }
-  @media (max-width: 991px) {
-    .div-14 {
-      max-width: 100%;
-      flex-wrap: wrap;
-      margin-top: 40px;
-    }
-  }
+ 
   .div-15 {
     font-family: Bona Nova, sans-serif;
     border-radius: 60px;
@@ -192,12 +229,7 @@
     justify-content: center;
     padding: 24px 60px;
   }
-  @media (max-width: 991px) {
-    .div-15 {
-      max-width: 100%;
-      padding: 0 26px 0 28px;
-    }
-  }
+  
   .div-16 {
     display: flex;
     flex-direction: column;
@@ -222,19 +254,13 @@
     justify-content: center;
     padding: 28px 12px;
   }
-  .div-20 {
+  #Search {
     border-radius: 70px;
-    background-color: #856577;
     align-self: center;
     margin-top: 160px;
     color: #fff;
     justify-content: center;
     padding: 28px 43px;
-    font: 36px Bona Nova, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-20 {
-      margin-top: 40px;
-      padding: 0 20px;
-    }
+    background-color: #b295c9;
+    font: 36px Aclonica, sans-serif;
   }

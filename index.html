@@ -7,34 +7,59 @@
     <title>PSRA</title>
 </head>
 <body>
-    <div class="div">
-        <div class="div-2">About Home Search School</div>
-        <div class="div-3">
-          <div class="div-4">Get The Best School Option For Your Child.</div>
-          <div class="div-5">
-            Have you moved to a new area or are you looking to change schools for your
-            child? We are the best solution for you.
-            <br />
-            Use this app to get school options based on the criteria you want.
+  <main>
+    <header>
+        <nav>
+          <div class="nav-bar">
+            <ul>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SCHOOL SEARCH</a></li>
+            </ul>              
+      </div>
+    </nav>
+    
+      <div class="section-1">
+        <h1>Get The Best<br>School Option <br>For Your Child</h1>
+
+          <p>Have you moved to a new area or are you <br>looking to change schools for your
+            child?<br> We are the best solution for you. <br/>
+            Use this app to get school options based on <br>the criteria you want.</p>
+        <div>
+        <div class="btn"> <button type="button" id="Learn-more" >Learn more</button>
           </div>
-          <div class="div-6">Learn more</div>
-          <div class="div-7">
-            <div class="div-8">
-              <div class="div-9">
-                <div class="div-10">Search Here...</div>
-                <div class="div-11">Select County</div>
-                <div class="div-12">Select Sub-county</div>
-                <div class="div-13">Distance in Km</div>
-              </div>
-              <div class="div-14">
-                <div class="div-15">School Fees range</div>
-                <div class="div-16"><div class="div-17">Min Kshs</div></div>
-                <div class="div-18"><div class="div-19">Max Kshs</div></div>
-              </div>
-              <div class="div-20">GET SCHOOLS</div>
+    </header>
+
+    <section class="search-schoOls">
+          <div class="container">
+            <h3>Looking For A School?</h3>
+            <form id="form">
+              
+              <div class="form">
+                <label for="County" id="county-name">County</label>
+                <!-- Dropdown Options -->
+                <select name="county" id="county">
+                <option value="#"></option>  
+                </select>
+                </div>
+
+              <div class="form">
+                <labelSelect County</div>
+              <div class="div-12">Select Sub-county</div>
+              <div class="div-13">Distance in Km</div>
             </div>
+            <div class="div-14">
+              <label for = "Fee range"> Expected Fee Range: </label>
+              <input type="range" id="Fee" min="0" max="1,000,000"> 
+          
+            <div class="button" id="Search">GET SCHOOLS</div>
           </div>
         </div>
       </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+    </main>    
+        
 </body>
 </html>
