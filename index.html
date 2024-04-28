@@ -18,46 +18,62 @@
             </ul>              
       </div>
     </nav>
-    
-      <div class="section-1">
-        <h1>Get The Best<br>School Option <br>For Your Child</h1>
 
-          <p>Have you moved to a new area or are you <br>looking to change schools for your
-            child?<br> We are the best solution for you. <br/>
-            Use this app to get school options based on <br>the criteria you want.</p>
-        <div>
-        <div class="btn"> <button type="button" id="Learn-more" >Learn more</button>
-          </div>
-    </header>
+    <div class= "section-1">
+      <h1>Get The Best<br>School Option <br>For Your Child</h1>
 
-    <section class="search-schoOls">
+      <p>Have you moved to a new area or are you <br>looking to change schools for your
+        child?<br> We are the best solution for you. <br>
+        Use this app to get school options based on <br>the criteria you want. 
+      </p>
+      <a href="#" class="button">Learn more</a>
+      </div>  
+      
+  </header>
+
+    <section class="search-schools">
           <div class="container">
             <h3>Looking For A School?</h3>
             <form id="form">
               
               <div class="form">
-                <label for="County" id="county-name">County</label>
+                <label for="county">Select County:</label>
                 <!-- Dropdown Options -->
                 <select name="county" id="county">
-                <option value="#"></option>  
+                <option value="#">Select County</option>
                 </select>
-                </div>
+                
+                <label for="sub" id="sub">Select Sub-County:</label>
+                 <!-- Dropdown Options -->
+                 <select name="subcounty" id="subcounty">
+                  <option value="#">Select Sub-county</option>  
+                  </select>
+                
+                <label for="level">Select Level:</label>
+                  <!-- Dropdown Options -->
+                 <select name="level" id="level">
+                  <option value="#">Level</option>  
+                  </select>
 
-              <div class="form">
-                <labelSelect County</div>
-              <div class="div-12">Select Sub-county</div>
-              <div class="div-13">Distance in Km</div>
-            </div>
-            <div class="div-14">
-              <label for = "Fee range"> Expected Fee Range: </label>
-              <input type="range" id="Fee" min="0" max="1,000,000"> 
-          
-            <div class="button" id="Search">GET SCHOOLS</div>
+                  <label for="status">Select Status:</label>
+                  <!-- Dropdown Options -->
+                  <select name="status" id="status">
+                   <option value="#">Status</option>  
+                   </select>
+
+                   <label for ="Distance" id="Distance">Distance:</label>
+                  <!-- Dropdown Options -->
+                  <input type="number" name="distance" placeholder="Enter distance in KM">
+
+                   <input type="button" value="Get Schools">
+              </div>
+            </form>
           </div>
-        </div>
-      </div>
-    </div>
-    </div>
+         
+          <div id="'result"></div>
+
+    </section>    
+
     <script type="text/javascript" src="./index.js"></script>
     </main>    
         
