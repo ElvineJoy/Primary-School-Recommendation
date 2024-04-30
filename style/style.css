@@ -83,7 +83,7 @@ h1 {
     margin-bottom: 5px;
   }
   
-  a.button , input[type="button"]{
+  a.button , input[type="submit"]{
     font-size: large;
     border-radius: 35px;
     background-color: #b295c9;
@@ -168,6 +168,6 @@ option{
   color: #cdc1c0;
 }
 
-input[type="button"] {
+input[type="submit"] {
   margin-top: 40px;
 }
