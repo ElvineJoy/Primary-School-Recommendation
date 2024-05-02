@@ -17,4 +17,4 @@ Just visit our webpage on *to enter url*, select the criteria you want, get the 
 # Expected web appearance
 ## Expected design of the SPA 
 
-![School Recommendation](https://github.com/ElvineJoy/Primary-School-Recommendation/assets/20923550/1fd2f69a-5a8d-4afc-96d8-37834ee06062)
+![School Recommendation](https://github.com/ElvineJoy/Primary-School-Recommendation/assets/20923550/c28073ec-242d-423a-bc51-e2a7265792f1)
